@@ -1,7 +1,7 @@
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
-const GameManager=require('./GameManager')
+const GameManager=require('./socketControllers/GameManager.js')
 
 const app = express();
 const port = 1234; 
